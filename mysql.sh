@@ -5,5 +5,5 @@ scp /linux-soft/03/mysql/mysql-5.7.17.tar root@192.168.4.$i:/root
 ssh root@192.168.4.$i 
 "tar -xf mysql-5.7.17;
 yum -y install  mysql-community-*.rpm;
-syetemctl restart mysqld"
+systemctl restart mysqld"
 done
